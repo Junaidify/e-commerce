@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+
+#home_page{
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    justify-content: space-around;
+    border: 1px solid red ;
+    margin-top: 3rem;
+    margin-left: 2.5%;
+    height: 100%;
+    width: 95%;
+}
+
+#card{
+    margin-top: 5%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3), 0px 6px 5px rgba(0,0,0,0.3);
+}
+
+.cardTitle, .category, .brand, .price, .cartButton{
+    margin-left:5%; 
+    margin-top:5%;
+    
+}
+
+.cardTitle, .cartButton{
+    font-weight: bold;
+}
+
+.cartButton{
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    margin-left: 15%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+
+
+/*------------------ Sort button for price sorting and category sorting ----------------------------------------------------*/
+
+#sort_button{
+    margin-left: 5%;
+    margin-top:2rem;
+}
+
+
+
+
+
+
+
